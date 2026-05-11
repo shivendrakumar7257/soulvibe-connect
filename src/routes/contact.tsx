@@ -65,7 +65,7 @@ function Contact() {
                 <label className="text-sm text-muted-foreground">Message</label>
                 <textarea required rows={5} className="mt-1 w-full bg-white/5 border border-white/10 rounded-2xl px-4 py-3 outline-none focus:border-[var(--neon-pink)] transition resize-none" />
               </div>
-              <button type="submit" className="btn-neon hover:[&]:btn-neon-hover w-full justify-center">
+              <button type="submit" className="btn-neon w-full justify-center">
                 Send Message <Send className="size-4" />
               </button>
             </form>

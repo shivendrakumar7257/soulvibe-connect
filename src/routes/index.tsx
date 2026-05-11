@@ -71,7 +71,7 @@ function Home() {
               Real conversations. Real people. Real income. Connect with boys and girls across India through chats, voice and video calls — and earn while you talk.
             </p>
             <div className="flex flex-wrap gap-3">
-              <Link to="/jobs" className="btn-neon hover:[&]:btn-neon-hover">
+              <Link to="/jobs" className="btn-neon">
                 Start Chatting <ArrowRight className="size-4" />
               </Link>
               <Link to="/jobs" className="btn-ghost-neon hover:bg-white/10">

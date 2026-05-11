@@ -104,7 +104,7 @@ function Jobs() {
                   <input type="file" accept="image/*" className="hidden" onChange={(e)=>setPhotoName(e.target.files?.[0]?.name ?? null)} />
                 </label>
               </div>
-              <button type="submit" className="sm:col-span-2 btn-neon hover:[&]:btn-neon-hover justify-center mt-2">
+              <button type="submit" className="sm:col-span-2 btn-neon justify-center mt-2">
                 Submit Application
               </button>
             </form>

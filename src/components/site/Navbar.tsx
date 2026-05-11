@@ -48,7 +48,7 @@ export function Navbar() {
           </ul>
 
           <div className="hidden md:flex items-center gap-2">
-            <Link to="/jobs" className="btn-neon hover:[&]:btn-neon-hover text-sm">Start Chatting</Link>
+            <Link to="/jobs" className="btn-neon text-sm">Start Chatting</Link>
           </div>
 
           <button className="md:hidden p-2" onClick={() => setOpen(!open)} aria-label="Menu">
